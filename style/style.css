@@ -2,6 +2,7 @@ body {
     background-color: #FAD7A0;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 18px;
+    
 }
 .site-subtitle,
 .site-title {
@@ -17,9 +18,10 @@ body {
 
 .menu{
     background-color: white;
-    width: 700px;
-    margin: auto;
-    padding: 10px;
+    text-align:center;
+    width: 400px;
+    /* margin: 120px; */
+    padding: 200px;
 }
 .menu ul {
     /* força todo mundo virar coluna, um ao lado do outro */
