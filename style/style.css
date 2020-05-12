@@ -19,11 +19,18 @@ body {
 .menu{
     background-color: white;
     text-align:center;
-    width: 400px;
+
     /* espaçamento externo */
-    margin: 360px;
+    margin: 750px;
     /* espaçamento interno */
-    padding: 60px; 
+    padding: 100px;
+
+    /* largura e altura */
+    height: 100px;
+    width: 160px;
+
+    /* modificar e fazer uma sombra para caixa */
+    box-shadow: 4px 4px 2px 0px rgb(238, 227, 128);
 }
 .menu ul {
     /* força todo mundo virar coluna, um ao lado do outro */
