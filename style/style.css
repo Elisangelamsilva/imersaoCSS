@@ -1,3 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+
+}
+
 body {
     background-color: #FAD7A0;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -26,8 +33,8 @@ body {
     padding: 100px;
 
     /* largura e altura */
-    height: 200px;
-    width: 200px;
+    height: 120px;
+    width: 250px;
 
     /* modificar e fazer uma sombra para caixa */
     box-shadow: 4px 4px 2px 0px rgb(238, 227, 128);
