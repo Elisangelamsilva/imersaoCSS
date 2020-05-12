@@ -1,14 +1,18 @@
 body {
     background-color: #FAD7A0;
-    color: ;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 18px;
 }
+.site-subtitle,
 .site-title {
-    color: rgb(146, 49, 155);
+    color: #F1948A;
     /* centralizar texto */
     text-align: center;
     
+}
+.site-subtitle{
+    font-size: 20px;
+    font-style: italic;
 }
 
 .menu{
@@ -33,7 +37,7 @@ body {
 /* Tirar o wwww */
 a {
     text-decoration: none;
-    color: rgb(146, 49, 155);
+    color: #F1948A;
 }
 
 /* pseudoclasse para passar o mause por cima */
