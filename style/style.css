@@ -7,6 +7,12 @@ body {
 .menu{
     background-color: white;
 }
+.menu ul {
+    /* força todo mundo virar coluna, um ao lado do outro */
+    display: flex;
+    /* espaçamento entre colunas space-around significa espaço entre colunas*/
+    justify-content: space-around;
+}
 
 /* selecionando todas as li que estão dentro do elemento menu */
 .menu li {
