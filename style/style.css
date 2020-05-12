@@ -8,6 +8,12 @@ body {
     background-color: white;
 }
 
+/* selecionando todas as li que estão dentro do elemento menu */
+.menu li {
+    /* sair o estilo de lista */
+ list-style: none;
+}
+
 /* Tirar o wwww */
 a {
     text-decoration: none;
@@ -16,10 +22,4 @@ a {
 /* pseudoclasse para passar o mause por cima */
 a:hover{
  text-decoration: underline;
-}
-
-/* selecionando todas as li que estão dentro do elemento menu */
-.menu li {
-    /* sair o estilo de lista */
- list-style: none;
 }
