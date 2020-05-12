@@ -20,8 +20,10 @@ body {
     background-color: white;
     text-align:center;
     width: 400px;
-    /* margin: 120px; */
-    padding: 200px;
+    /* espaçamento externo */
+    margin: 360px;
+    /* espaçamento interno */
+    padding: 60px; 
 }
 .menu ul {
     /* força todo mundo virar coluna, um ao lado do outro */
