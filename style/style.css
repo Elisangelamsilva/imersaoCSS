@@ -1,11 +1,21 @@
 body {
-    background-color: bisque;
+    background-color: #FAD7A0;
+    color: ;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 18px;
+}
+.site-title {
+    color: rgb(146, 49, 155);
+    /* centralizar texto */
+    text-align: center;
+    
 }
 
 .menu{
     background-color: white;
+    width: 700px;
+    margin: auto;
+    padding: 10px;
 }
 .menu ul {
     /* força todo mundo virar coluna, um ao lado do outro */
@@ -23,6 +33,7 @@ body {
 /* Tirar o wwww */
 a {
     text-decoration: none;
+    color: rgb(146, 49, 155);
 }
 
 /* pseudoclasse para passar o mause por cima */
