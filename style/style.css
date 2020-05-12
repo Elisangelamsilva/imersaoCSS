@@ -26,14 +26,14 @@ body {
     padding: 100px;
 
     /* largura e altura */
-    height: 160px;
-    width: 160px;
+    height: 200px;
+    width: 200px;
 
     /* modificar e fazer uma sombra para caixa */
     box-shadow: 4px 4px 2px 0px rgb(238, 227, 128);
 
     /* medição da caixa */
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 .menu ul {
     /* força todo mundo virar coluna, um ao lado do outro */
