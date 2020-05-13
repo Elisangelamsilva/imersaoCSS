@@ -11,6 +11,11 @@ body {
     font-size: 18px;
     
 }
+
+header{
+    display: flex;
+}
+
 .site-subtitle,
 .site-title {
     color: #F1948A;
