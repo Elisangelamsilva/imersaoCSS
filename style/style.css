@@ -12,8 +12,17 @@ body {
     
 }
 
+/* se a tela tiver pelo menos 400px, vai carregar esses estilos */
 @media(min-width: 400px) {
+    body {
+        font-size: 16px;
+    }
+}
 
+@media(min-width: 600px) {
+    body {
+        font-size: 18px;
+    }
 }
 
 header{
@@ -35,6 +44,9 @@ header{
 .site-subtitle{
     font-size: 20px;
     font-style: italic;
+}
+.site-title{
+    font-size: 2em;
 }
 
 .menu{
