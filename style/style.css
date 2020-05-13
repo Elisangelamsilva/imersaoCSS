@@ -12,6 +12,10 @@ body {
     
 }
 
+@media(min-width: 400px) {
+
+}
+
 header{
     height: 100vh;
     display: flex;
@@ -34,30 +38,21 @@ header{
 }
 
 .menu{
-    /* background-color: white;
-    text-align:center;
-
-     espaçamento externo
-    margin-top: 300px;
-    margin-left: 760px;
-    
-    espaçamento interno
-    padding: 90px;
-
-    modificar e fazer uma sombra para caixa
-    box-shadow: 4px 4px 2px 0px rgb(238, 227, 128); 
-
-    medição da caixa
-    box-sizing: border-box;
-
-    position: fixed;  */
-
     background-color: white;
     position: fixed;
 
     /* largura e altura */
     height: 290px;
     width: 470px;
+
+    /* espaçamento interno */
+    padding: 50px;
+
+    /* medição da caixa */
+    box-sizing: border-box;
+
+    /* modificar e fazer uma sombra para caixa */
+    box-shadow: 4px 4px 2px 0px rgb(238, 227, 128); 
     
 
 }
