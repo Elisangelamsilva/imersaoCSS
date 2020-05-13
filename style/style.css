@@ -13,7 +13,9 @@ body {
 }
 
 header{
-    display: flex;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
 }
 
 .site-subtitle,
@@ -35,8 +37,9 @@ header{
     /* espaçamento externo */
     margin-top: 300px;
     margin-left: 760px;
+    
     /* espaçamento interno */
-    padding: 100px;
+    padding: 90px;
 
     /* largura e altura */
     height: 120px;
@@ -47,6 +50,8 @@ header{
 
     /* medição da caixa */
     /* box-sizing: border-box; */
+
+    position: fixed;
 }
 .menu ul {
     /* força todo mundo virar coluna, um ao lado do outro */
@@ -59,6 +64,11 @@ header{
 .menu li {
     /* sair o estilo de lista */
  list-style: none;
+}
+
+.menu a {
+    background-color: red ;
+    /*  afastar o conteúdo de texto das bordas */
 }
 
 /* Tirar o wwww */
