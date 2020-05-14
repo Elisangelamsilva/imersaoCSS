@@ -36,6 +36,27 @@ header{
   
 }
 
+.portifolio{
+    background-color: white;
+    position: fixed;
+
+    /* largura e altura */
+    height: 800px;
+    width: 800px;
+
+    /* espaçamento interno */
+    padding: 80px;
+
+    /* medição da caixa */
+    box-sizing: border-box;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
 .site-subtitle,
 .site-title {
     color: #F1948A;
@@ -97,7 +118,7 @@ a:hover{
  text-decoration: underline;
 }
 
-img {
+.photo-perfil {
     width: 100px;
     height: 100px;
     border-radius: 50px;
@@ -107,5 +128,14 @@ img {
     text-align: center;
 }
 
-/* altura de linha:
-line-height: em */
+.login-portifolio
+{
+    text-align: center;
+    height: 480px;
+    width: 600px;
+   
+}
+
+p{
+    line-height: em 
+}
