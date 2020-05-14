@@ -137,5 +137,6 @@ a:hover{
 }
 
 p{
-    line-height: em 
+    line-height: 1.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
