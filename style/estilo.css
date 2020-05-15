@@ -71,7 +71,8 @@ body {
     width: 450px;
     /* propriedades para encaixar as imagens e ficar do mesmo tamanho */
     object-fit: cover;
-   
+    /* valor para arredondar */
+   border-radius: 10px;
 }
 
 p{
