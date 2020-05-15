@@ -87,7 +87,7 @@ header{
     /*  afastar o conteúdo de texto das bordas */
   color: #F1948A;
   display: block;
-  padding: 30px;
+  padding: 10px;
   text-decoration: none;
 
 }
@@ -104,5 +104,8 @@ a:hover{
 }
 
 .img-container{
+    text-align: center;
+}
+.a{
     text-align: center;
 }
