@@ -69,7 +69,7 @@ body {
     text-align: center;
     height: 450px;
     width: 450px;
-    /* propriedades para encaixar e mesmo tamanho */
+    /* propriedades para encaixar as imagens e ficar do mesmo tamanho */
     object-fit: cover;
    
 }
