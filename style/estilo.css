@@ -47,10 +47,19 @@ body {
 @media (min-width: 880px) {
     .portifolio .grid {
         /* largura de cada coluna */
-        grid-template-columns: repeat(3, 450px);
+        grid-template-columns: repeat(3, 500px);
+        align-content: center;
         /* para tela grande, centralizar os elementos  */
         justify-content: center;
     }
+}
+
+@media (min-width: 1200px) {
+    .login-portifolio {
+    height: 10em;
+    width: auto;
+   
+}
 }
 
 
