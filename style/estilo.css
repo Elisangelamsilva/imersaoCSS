@@ -69,6 +69,8 @@ body {
     text-align: center;
     height: 450px;
     width: 450px;
+    /* propriedades para encaixar e mesmo tamanho */
+    object-fit: cover;
    
 }
 
