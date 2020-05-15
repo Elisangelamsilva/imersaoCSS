@@ -95,9 +95,9 @@ header{
 
 /* pseudoclasse para passar o mause por cima */
 a:hover{
- text-decoration: underline;
+ /* text-decoration: underline; */
  /* sombra nos links */
- text-shadow: 0px 0px 10px black;
+ text-shadow: 0px 0px 8px black;
 }
 
 .photo-perfil {
