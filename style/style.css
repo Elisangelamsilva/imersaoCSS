@@ -36,33 +36,6 @@ header{
   
 }
 
-.portifolio{
-    background-color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-
-    /* largura e altura */
-    height: 900px;
-    width: 850px;
-
-    /* espaçamento interno */
-    padding: 80px;
-
-    /* medição da caixa */
-    box-sizing: border-box;
-
-}
-
-.portifolio h1 {
-    margin-bottom: 1.5em;
-}
-
-.portifolio .grid {
-    display: grid;
-    /* espaçamento entre cada coluna */
-    gap: 1em;
-    /* largura de cada coluna */
-}
-
 .site-subtitle,
 .site-title {
     color: #F1948A;
@@ -132,18 +105,4 @@ a:hover{
 
 .img-container{
     text-align: center;
-}
-
-.login-portifolio
-{
-    text-align: center;
-    height: 400px;
-    width: 600px;
-   
-}
-
-p{
-    line-height: 1.5em;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    margin-top: 1.5em;
 }

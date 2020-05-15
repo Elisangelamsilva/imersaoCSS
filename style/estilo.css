@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+
+}
+
+body {
+    background-color: #FAD7A0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    
+}
+
+.portifolio{
+    background-color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    /* largura e altura */
+    height: 900px;
+    width: 850px;
+
+    /* espaçamento interno */
+    padding: 80px;
+
+    /* medição da caixa */
+    box-sizing: border-box;
+
+}
+
+.portifolio h1 {
+    margin-bottom: 1.5em;
+}
+
+.portifolio .grid {
+    display: grid;
+    /* espaçamento entre cada coluna */
+    gap: 1.5em;
+}
+
+@media (min-width: 560px) {
+    .portifolio .grid {
+        /* largura de cada coluna */
+        grid-template-columns: 450px 450px;
+    }
+}
+@media (min-width: 880px) {
+    .portifolio .grid {
+        /* largura de cada coluna */
+        grid-template-columns: repeat(3, 450px);
+        /* para tela grande, centralizar os elementos  */
+        justify-content: center;
+    }
+}
+
+
+
+.login-portifolio
+{
+    text-align: center;
+    height: 450px;
+    width: 450px;
+   
+}
+
+p{
+    line-height: 1.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 1.5em;
+}
