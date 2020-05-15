@@ -39,11 +39,10 @@ header{
 .portifolio{
     background-color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    /* position: fixed; */
 
     /* largura e altura */
     height: 900px;
-    width: 900px;
+    width: 850px;
 
     /* espaçamento interno */
     padding: 80px;
@@ -51,15 +50,17 @@ header{
     /* medição da caixa */
     box-sizing: border-box;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-
 }
 
 .portifolio h1 {
     margin-bottom: 1.5em;
+}
+
+.portifolio .grid {
+    display: grid;
+    /* espaçamento entre cada coluna */
+    gap: 1em;
+    /* largura de cada coluna */
 }
 
 .site-subtitle,
