@@ -39,11 +39,11 @@ header{
 .portifolio{
     background-color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    position: fixed;
+    /* position: fixed; */
 
     /* largura e altura */
-    height: 800px;
-    width: 800px;
+    height: 900px;
+    width: 900px;
 
     /* espaçamento interno */
     padding: 80px;
@@ -136,7 +136,7 @@ a:hover{
 .login-portifolio
 {
     text-align: center;
-    height: 480px;
+    height: 400px;
     width: 600px;
    
 }
