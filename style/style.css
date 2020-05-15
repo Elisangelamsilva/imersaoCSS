@@ -38,6 +38,7 @@ header{
 
 .portifolio{
     background-color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     position: fixed;
 
     /* largura e altura */
@@ -55,6 +56,10 @@ header{
     justify-content: center;
     flex-wrap: wrap;
 
+}
+
+.portifolio h1 {
+    margin-bottom: 1.5em;
 }
 
 .site-subtitle,
@@ -139,4 +144,5 @@ a:hover{
 p{
     line-height: 1.5em;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 1.5em;
 }
