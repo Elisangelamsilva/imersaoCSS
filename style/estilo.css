@@ -18,13 +18,15 @@ body {
 
     /* largura e altura */
     min-height: 900px;
-    width: 850px;
+    width: 980px;
 
     /* espaçamento interno */
     padding: 80px;
 
     /* medição da caixa */
     box-sizing: border-box;
+
+    margin: 50px auto;
 
 }
 
@@ -47,7 +49,7 @@ body {
 @media (min-width: 880px) {
     .portifolio .grid {
         /* largura de cada coluna */
-        grid-template-columns: repeat(3, 500px);
+        /* grid-template-columns: repeat(3, 400px); */
         align-content: center;
         /* para tela grande, centralizar os elementos  */
         justify-content: center;
