@@ -70,11 +70,11 @@ body {
 {
     text-align: center;
     height: 350px;
-    width: 350px;
+    width: 400px;
     /* propriedades para encaixar as imagens e ficar do mesmo tamanho */
     object-fit: cover;
     /* valor para arredondar */
-   border-radius: 10px;
+   /* border-radius: 8px; */
    margin: auto;
 }
 
