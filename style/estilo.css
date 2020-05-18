@@ -28,6 +28,11 @@ body {
 
     margin: 50px auto;
 
+    transform: scale(0.2) translateY(58vh);
+    opacity: 0;
+
+    animation: linear 2s animacaoTitulo;
+
 }
 
 .portifolio h1 {
