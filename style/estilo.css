@@ -28,11 +28,18 @@ body {
 
     margin: 50px auto;
 
-    transform: scale(0.2) translateY(58vh);
+    transform: scale(0.2) translateY(50vh);
     opacity: 0;
 
     animation: linear 2s animacaoTitulo;
 
+}
+
+@keyframes animacaoTitulo {
+    100% {
+        transform: scale(1) translateY(0);
+        opacity: 1;
+    }
 }
 
 .portifolio h1 {
