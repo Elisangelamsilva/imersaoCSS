@@ -74,7 +74,14 @@ body {
     /* valor para arredondar */
    /* border-radius: 8px; */
    margin: auto;
+   transition: transform 500ms;
 }
+
+.login-portifolio:hover{
+    transform: scale(1.2);
+}
+
+
 
 p{
     line-height: 1.5em;
